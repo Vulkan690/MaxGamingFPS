@@ -1,0 +1,23 @@
+body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(30, 30, 30, 1);
+    color: white;
+    margin: 0;
+}
+
+a {color: inherit; text-decoration: none;}
+a:hover {color: red;}
+a:active {color: orange;}
+
+a[href^="https"] {text-decoration: underline;}
+a[href^="https"]:hover {color: blue;}
+a[href^="https"]:active {color: blueviolet;}
+
+nav, footer {
+    background-color: rgba(10, 10, 10, 1);
+}
+
+
+
