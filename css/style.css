@@ -19,5 +19,21 @@ nav, footer {
     background-color: rgba(10, 10, 10, 1);
 }
 
+ul {
+    padding: 0;
+    list-style-type: none;
+}
 
+li {
+    padding-bottom: 0.2rem;
+}
 
+.question {
+    font-weight: bold;
+    padding-bottom: 0.4rem;
+}
+
+.info {
+    font-weight: bold;
+    font-style: italic;
+}
