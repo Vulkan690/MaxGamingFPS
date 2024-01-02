@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="3840"
+   height="4320"
+   viewBox="0 0 1015.9999 1143"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   sodipodi:docname="background.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     units="px"
+     inkscape:showpageshadow="false"
+     inkscape:lockguides="false"
+     showguides="false"
+     inkscape:zoom="1.8363451"
+     inkscape:cx="1880.6378"
+     inkscape:cy="1989.5498"
+     inkscape:window-width="1850"
+     inkscape:window-height="1016"
+     inkscape:window-x="70"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <filter
+       style="color-interpolation-filters:sRGB;"
+       inkscape:label="Noise Fill"
+       id="filter5823"
+       x="0"
+       y="0"
+       width="1"
+       height="1">
+      <feTurbulence
+         type="turbulence"
+         baseFrequency="10 10"
+         numOctaves="1"
+         seed="360"
+         result="turbulence"
+         id="feTurbulence5807" />
+      <feComposite
+         in="SourceGraphic"
+         in2="turbulence"
+         operator="in"
+         result="composite1"
+         id="feComposite5809" />
+      <feColorMatrix
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 25 -2.77556e-17 "
+         result="color"
+         id="feColorMatrix5811" />
+      <feFlood
+         flood-opacity="1"
+         flood-color="rgb(32,32,32)"
+         result="flood"
+         id="feFlood5813" />
+      <feMerge
+         result="merge"
+         id="feMerge5819">
+        <feMergeNode
+           in="flood"
+           id="feMergeNode5815" />
+        <feMergeNode
+           in="color"
+           id="feMergeNode5817" />
+      </feMerge>
+      <feComposite
+         in2="SourceGraphic"
+         operator="in"
+         result="composite2"
+         id="feComposite5821" />
+    </filter>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#202020;stroke-width:0.264999;fill-opacity:1;filter:url(#filter5823)"
+       id="rect846"
+       width="1090.1759"
+       height="1213.2787"
+       x="-34.780514"
+       y="-26.252401" />
+  </g>
+</svg>
