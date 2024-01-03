@@ -20,7 +20,7 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-block: 60px;
+    margin-block: 80px;
 }
 
 /* Links style */
@@ -29,7 +29,7 @@ a {color: inherit; text-decoration: none;}
 a:hover {color: rgb(255, 76, 77);}
 a:active {color: rgb(255, 152, 77);}
 
-a.resource-link[href^="https"] {text-decoration: underline;}
+a[href^="https"] {text-decoration: underline;}
 a[href^="https"]:hover {color: inherit;}
 a[href^="https"]:active {color: rgb(182, 142, 219);}
 
@@ -39,7 +39,7 @@ footer, header {
     width: 100%;
     height: 60px;
     background-color: rgb(23, 23, 23);
-    flex-shrink: 0;
+
     position: fixed;
     display: flex;
     justify-content: center;
@@ -48,10 +48,8 @@ footer, header {
 
 header {
     top: 0px;
-}
-
-footer {
-    bottom: 0px;
+    font-size: large;
+    font-weight: bold;
 }
 
 nav a {
@@ -59,14 +57,54 @@ nav a {
     margin-inline: 20px;
 }
 
+footer {
+    bottom: 0px;
+}
+
 footer .footer-content {
     display: flex;
     width: 800px;
     justify-content: space-between;
+    align-items: center;
+    height: inherit;
 }
 
-ul {
-    list-style-type: none;
+footer .footer-links {
+    display: flex;
+    height: inherit;
+}
+
+footer p {
+    align-self: center;
+}
+
+footer img, footer a {
+    height: 36px;
+    width: auto;
+}
+
+footer a {
+    height: 36px;
+    margin: 12px;
+    padding: 0;
+}
+
+/* Other styles */
+
+.youtube {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+    margin-block: 30px;
+}
+
+.video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 
 .info {
@@ -74,13 +112,52 @@ ul {
     font-style: italic;
 }
 
-p, ul {
+ul {
     align-self: flex-start;
-    padding-left: 0;
+    padding-left: 0;    
+    list-style-type: none;
 }
 
-/* Premium Worth List specific style */
+li, dd {
+    padding-top: 0.5em;
+}
 
+p {
+    align-self: flex-start;
+    text-align: justify;
+    line-height: 1.4em;
+}
+
+/* Home page style */
+
+.home h1 {
+    margin-block: 72px;
+}
+
+.icon-home a, .icon-home img {
+    width: 72px;
+    height: auto;
+    margin: 72px 18px 0px;
+}
+
+/* FAQ page style */
+
+.question {
+    font-weight: bold;
+    margin-bottom: 0.3em;
+}
+
+.pc-picture {
+    width: 90%;
+    height: auto;
+    margin-block: 30px;
+}
+
+/* Premium Worth List style */
+
+dl {
+    align-self: flex-start;
+}
 
 hr {
     width: 100%;
