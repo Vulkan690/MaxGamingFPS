@@ -1,13 +1,14 @@
 * {
     box-sizing: border-box;
+/*    border: 1px solid red;  */
 }
 
 body {
     background-color: rgb(36, 36, 36);
-    background-image: url("../img/background.svg");
+/*    background-image: url("../img/background.svg");
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: scroll;
+    background-attachment: scroll; */
     color: rgb(255, 255, 255);
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
@@ -29,9 +30,7 @@ a {color: inherit; text-decoration: none;}
 a:hover {color: rgb(255, 76, 77);}
 a:active {color: rgb(255, 152, 77);}
 
-a[href^="https"] {text-decoration: underline;}
-a[href^="https"]:hover {color: inherit;}
-a[href^="https"]:active {color: rgb(182, 142, 219);}
+a[href^="https"], .resource {text-decoration: underline;}
 
 /* nav & footer */
 
@@ -39,11 +38,11 @@ footer, header {
     width: 100%;
     height: 60px;
     background-color: rgb(23, 23, 23);
-
     position: fixed;
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: 1000;
 }
 
 header {
@@ -97,6 +96,7 @@ footer a {
     height: 0;
     padding-bottom: 56.25%;
     margin-block: 30px;
+
 }
 
 .video {
@@ -155,8 +155,14 @@ p {
 
 /* Premium Worth List style */
 
+.tank-cat {
+    align-self: center;
+    margin-top: -5px;
+}
+
 dl {
     align-self: flex-start;
+    padding-left: 20px;
 }
 
 hr {
